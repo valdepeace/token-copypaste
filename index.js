@@ -27,7 +27,11 @@ if(process.env.NODE_ENV === 'development'){
         fs.copyFileSync('./examples/env_example', homedir + '/.env' );
         console.log('modified files in folder <user>./token_copypaste: .env');
     }
-    dotenv.config(homedir);    
+    dotenv.config({
+        path: homedir + "/.env",
+        //encoding: "utf8",
+        //debug: true
+    });    
 }
 
 const credential = require(homedir + '/credential');        
