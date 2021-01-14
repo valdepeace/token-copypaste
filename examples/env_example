@@ -1,0 +1,16 @@
+##### User credential #####
+***** admin ***************
+USER_ADMIN_EMAIL="admin@gmail.com"
+USER_ADMIN_PASSWORD="xxxxx"
+
+******* manager ************ 
+USER_MANAGER_EMAIL="manager@gmail.com"
+USER_MANAGER_PASSWORD="xxxxxxx"
+
+### Envoriment ######
+ENV_DEV_HOST="127.0.0.1"
+ENV_INT_HOST="127.0.0.1"
+ENV_PRO_HOST="127.0.0.1"
+ENV_DEV_PORT=3000
+ENV_INT_PORT=3000
+ENV_PRO_PORT=3000
