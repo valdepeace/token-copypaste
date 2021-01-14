@@ -3,7 +3,7 @@ Token copy paste from swagger api
 
 # Install
 ```
-npm install -g 
+npm install -g token-copypaste
 ```
 create files in folder user named .gettoken_copypaste:
 1. create credential.js: parameter options --user <type user>
